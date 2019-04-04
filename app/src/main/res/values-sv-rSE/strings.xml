@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="hangman">Hangman</string>
+    <string name="play_game">Spela</string>
+    <string name="about">Om</string>
+    <string name="nameOfProgrammer">Skapad av Robin Bruér</string>
+    <string name="hangmanimage">HangmanBild</string>
+    <string name="tries_left">försök kvar</string>
+    <string name="guess">Gissa!</string>
+    <string name="number_of_triesleft">"Antal försök kvar: "</string>
+    <string name="Back_to_menu">Tillbaka till huvudmenyn</string>
+    <string name="RightWordWas">"Rätt ord: "</string>
+    <string name="you_won">Du vann!</string>
+    <string name="you_lost">Du förlorade!</string>
+    <string name="toolbar_mainmenu">Huvudmeny</string>
+    <string name="toolbar_about">Om</string>
+    <string name="result">Resultat</string>
+    <string name="test">svensk</string>
+    <string name="test2">svenska</string>
+    <string name="word1">rik</string>
+    <string name="word2">kock</string>
+    <string name="word3">flygplats</string>
+    <string name="word4">namn</string>
+    <string name="word5">ägg</string>
+    <string name="word6">krig</string>
+    <string name="word7">hamn</string>
+    <string name="word8">telefon</string>
+    <string name="word9">tandborste</string>
+    <string name="word10">potatis</string>
+    <string name="theme">Tema</string>
+    <string name="onlyOneLetter">Endast en bokstav godkäns!</string>
+    <string name="alreadyusedLetter">Du har redan andvänt denna bokstaven!</string>
+    <string name="themeChoosen">Nytt tema valt</string>
+</resources>

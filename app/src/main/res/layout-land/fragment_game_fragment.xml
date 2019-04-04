@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraint"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".game_fragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hangmanImage"
+            android:layout_width="267dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/hangmanimage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars[5]" />
+
+        <TextView
+            android:id="@+id/displayWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hangmanImage"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/trysLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/displayWord"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/tries_left"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/trysLeft"
+            app:layout_constraintTop_toBottomOf="@+id/displayWord" />
+
+        <TextView
+            android:id="@+id/wrongLetters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:text="A,B,C" />
+
+        <EditText
+            android:id="@+id/guessText"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/text"
+            app:layout_constraintStart_toEndOf="@+id/hangmanImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/guessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="228dp"
+            android:background="@drawable/button_bakground"
+            android:textColor="#EEEEF0"
+            android:text="@string/guess"
+            app:layout_constraintStart_toEndOf="@+id/guessText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

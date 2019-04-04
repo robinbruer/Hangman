@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+            android:id="@+id/play_ic"
+            android:icon="@drawable/ic_play_button"
+            android:title="@string/play_game"
+        android:orderInCategory="200"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/info_ic"
+            android:icon="@drawable/ic_info_button"
+            android:title="@string/about"
+            android:orderInCategory="300"
+            app:showAsAction="always"/>
+
+</menu>

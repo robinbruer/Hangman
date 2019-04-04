@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="hangman">Hangman</string>
+    <string name="play_game">Play game</string>
+    <string name="about">About</string>
+    <string name="nameOfProgrammer">Created by Robin Bruér</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hangmanimage">hangmanImage</string>
+    <string name="tries_left">tries left</string>
+    <string name="guess">Guess!</string>
+    <string name="number_of_triesleft">Amount of tries left: </string>
+    <string name="Back_to_menu">Back to main menu</string>
+    <string name="RightWordWas">Right word: </string>
+    <string name="you_won">You won!</string>
+    <string name="you_lost">You lost!</string>
+    <string name="toolbar_mainmenu">Main menu</string>
+    <string name="toolbar_about">About</string>
+    <string name="result">Result</string>
+    <string name="onlyOneLetter">You can enter only one letter!</string>
+    <string name="alreadyusedLetter">You have already used this letter!</string>
+    <string name="themeChoosen">New theme choosen</string>
+
+
+    <!-- Words to guess in game -->
+    <string name="word1">rich</string>
+    <string name="word2">cook</string>
+    <string name="word3">airport</string>
+    <string name="word4">name</string>
+    <string name="word5">egg</string>
+    <string name="word6">war</string>
+    <string name="word7">harbor</string>
+    <string name="word8">telephone</string>
+    <string name="word9">toothbrush</string>
+    <string name="word10">potato</string>
+    <string name="theme">Theme</string>
+
+    <string-array name="hangwords">
+        <item>@string/word1</item>
+        <item>@string/word2</item>
+        <item>@string/word3</item>
+        <item>@string/word4</item>
+        <item>@string/word5</item>
+        <item>@string/word6</item>
+        <item>@string/word7</item>
+        <item>@string/word8</item>
+        <item>@string/word9</item>
+        <item>@string/word10</item>
+    </string-array>
+</resources>
